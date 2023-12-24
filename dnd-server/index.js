@@ -12,7 +12,7 @@ app.use(
 app.use(express.json());
 
 const uri =
-  "mongodb+srv://dndCollection:jkvkSnr2VvZVhrIh@cluster0.sz2xe62.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://<username>:<password>@cluster0.sz2xe62.mongodb.net/?retryWrites=true&w=majority";
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
